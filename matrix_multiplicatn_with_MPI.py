@@ -42,4 +42,4 @@ time_loops = end - start
 if rank == 0:
     print(f"Loop-based matmul time with MPI: {time_loops:.6f} seconds")
     with open('benchmarking2.csv','a') as f1:
-        f1.write(f'512,{time_loops:.6f},Y,{size}\n')
+        f1.write(f'{N},{time_loops:.6f},Y,{size}\n')

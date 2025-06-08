@@ -55,4 +55,4 @@ if __name__ == '__main__':
     print(np.array(matrix1).dot(np.array(matrix2)))
     with open("benchmarking2.csv",'w') as f :
         f.write('matrix_size,time_duration_secs,MPI,num_cores\n')
-        f.write(f'{N},{time_loops:.6f},{N},1\n')
+        f.write(f'{N},{time_loops:.6f},N,1\n')
