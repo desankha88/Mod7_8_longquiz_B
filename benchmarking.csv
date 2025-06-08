@@ -1,0 +1,4 @@
+matrix_size,time_duration_secs,MPI,num_cores
+512,83.680266,N,1
+512,55.372911,Y,2
+512,56.313892,Y,4
